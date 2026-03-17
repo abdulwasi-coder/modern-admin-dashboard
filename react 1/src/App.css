@@ -1,0 +1,39 @@
+table {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    height: 60vh;
+    width: 60vw;
+    background-color: rgb(4, 98, 98);
+    border: 1px solid black;
+    border-radius: 10px;
+    border-collapse: collapse;
+    color: rgb(0, 255, 255);;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border-bottom: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+
+tbody td:hover{
+    background-color: rgb(8, 171, 171);
+}
+
+td {
+
+    height: 30px;
+    align-content: center;
+    text-align: center;
+}
+
+th {
+    border-bottom: none;
+    height: 30px;
+    align-content: center;
+    padding: 10px;
+}

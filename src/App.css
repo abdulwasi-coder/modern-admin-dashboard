@@ -449,7 +449,7 @@ footer div {
 }
 
 footer svg {
-    width: 3%;
+    width: 5%;
     fill: var(--deactive-color);
     cursor: pointer;
 }
